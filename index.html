@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <meta name="theme-color" content="#0C1310" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -10,6 +10,48 @@
     <link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAIAAADdvvtQAAADiUlEQVR4nO3dvauWZRzA8et4koQcBMdocTGwotNSSuQLWX9BFg2VtUcvS1SDWEP2T4QQIfaCm+TLwZfNIC2w0bCGWsQwykGfcxpc9NDU98DzaJ/PdnPDzW/4ct33A9fDNbd+44YB/9WaaQ/A3U1AJAIiERCJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAiIREImASAREIiCS+1brQZcOPrNaj5qWTa+emfYIdx8rEImASAREIiASAZEIiERAJAIiERCJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIJJV21R/D4j/C/h/7sm3ApEIiERAJAIiERCJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAiIREImASAREIiASAZEIiERAJAIiERCJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkq3ZWRjwpIp5TwbRYgUgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAiIREImASAREsmpbWu8NazbtGX//tvT72VuX84++u3Tp8PzCB8t//jzG3Jhft3T5yPKVC1OdcbYI6A7LVy6seXD3uBXQ/P1j3cblv34dS5PJDwfGGHMPPDT/yJs3BXSbufUbN0x7hhkyPz9/evHEjl3P3pxMnn9u99annty3/+OLP57f8tjCGGNubu7sqcWnt++c9pgzxDfQHSaTyffnzy8sLIwxdu3aeez4idvvbtu2dd/+j6Y02owS0EonTi7u3LF9jPHEwuPnzn03xli7du3hQ18c+earzw9+tve1V6Y94GzxDbTSqdNn3nh975ajRy9e/OnmZDLGuHHjxp6XXh5jPLx589dfHpr2gLPFCrTStWvXrl+//uKeF749dnzFrat/XL18+ZepTDWzrED/4uTi4jtvv/XJgU9vXd56hS0tLY0x3nv/w6mONnP8CiPxCiMREImASAREIiASAZEIiERAJAIiERCJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAiIREImASAREIiASAZEIiERAJAIiERCJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAiIREImASAREIiASAZEIiERAJAIiERCJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAiIREImASP4BSY19pLHucZYAAAAASUVORK5CYII=" />
     <link rel="icon" type="image/png" sizes="192x192" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAIAAADdvvtQAAADiUlEQVR4nO3dvauWZRzA8et4koQcBMdocTGwotNSSuQLWX9BFg2VtUcvS1SDWEP2T4QQIfaCm+TLwZfNIC2w0bCGWsQwykGfcxpc9NDU98DzaJ/PdnPDzW/4ct33A9fDNbd+44YB/9WaaQ/A3U1AJAIiERCJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAiIREImASAREIiCS+1brQZcOPrNaj5qWTa+emfYIdx8rEImASAREIiASAZEIiERAJAIiERCJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIJJV21R/D4j/C/h/7sm3ApEIiERAJAIiERCJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAiIREImASAREIiASAZEIiERAJAIiERCJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkq3ZWRjwpIp5TwbRYgUgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAiIREImASAREsmpbWu8NazbtGX//tvT72VuX84++u3Tp8PzCB8t//jzG3Jhft3T5yPKVC1OdcbYI6A7LVy6seXD3uBXQ/P1j3cblv34dS5PJDwfGGHMPPDT/yJs3BXSbufUbN0x7hhkyPz9/evHEjl3P3pxMnn9u99annty3/+OLP57f8tjCGGNubu7sqcWnt++c9pgzxDfQHSaTyffnzy8sLIwxdu3aeez4idvvbtu2dd/+j6Y02owS0EonTi7u3LF9jPHEwuPnzn03xli7du3hQ18c+earzw9+tve1V6Y94GzxDbTSqdNn3nh975ajRy9e/OnmZDLGuHHjxp6XXh5jPLx589dfHpr2gLPFCrTStWvXrl+//uKeF749dnzFrat/XL18+ZepTDWzrED/4uTi4jtvv/XJgU9vXd56hS0tLY0x3nv/w6mONnP8CiPxCiMREImASAREIiASAZEIiERAJAIiERCJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAiIREImASAREIiASAZEIiERAJAIiERCJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAiIREImASAREIiASAZEIiERAJAIiERCJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAiIREImASP4BSY19pLHucZYAAAAASUVORK5CYII=" />
     <title>VeraBets</title>
+    <style>
+      html {
+        background: #0C1310;
+        -webkit-text-size-adjust: 100%;
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        background: #0C1310;
+        min-height: 100vh;
+        min-height: 100dvh;
+        overscroll-behavior: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-user-select: none;
+        user-select: none;
+        -webkit-touch-callout: none;
+        touch-action: manipulation;
+      }
+      #root {
+        background: #0C1310;
+        min-height: 100vh;
+        min-height: 100dvh;
+      }
+      input, textarea, select {
+        -webkit-user-select: text;
+        user-select: text;
+      }
+    </style>
+    <script>
+      // Block pinch-to-zoom on iOS standalone (native-app feel)
+      document.addEventListener('gesturestart', function (e) { e.preventDefault(); }, { passive: false });
+      document.addEventListener('gesturechange', function (e) { e.preventDefault(); }, { passive: false });
+      document.addEventListener('gestureend', function (e) { e.preventDefault(); }, { passive: false });
+      // Block double-tap-to-zoom
+      var lastTouch = 0;
+      document.addEventListener('touchend', function (e) {
+        var now = Date.now();
+        if (now - lastTouch <= 300) { e.preventDefault(); }
+        lastTouch = now;
+      }, { passive: false });
+    </script>
     <script type="module" crossorigin>(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const i of document.querySelectorAll('link[rel="modulepreload"]'))n(i);new MutationObserver(i=>{for(const a of i)if(a.type==="childList")for(const o of a.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&n(o)}).observe(document,{childList:!0,subtree:!0});function r(i){const a={};return i.integrity&&(a.integrity=i.integrity),i.referrerPolicy&&(a.referrerPolicy=i.referrerPolicy),i.crossOrigin==="use-credentials"?a.credentials="include":i.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function n(i){if(i.ep)return;i.ep=!0;const a=r(i);fetch(i.href,a)}})();var Jl=typeof globalThis<"u"?globalThis:typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{};function ve(e){return e&&e.__esModule&&Object.prototype.hasOwnProperty.call(e,"default")?e.default:e}var ox={exports:{}},vc={},lx={exports:{}},ne={};/**
  * @license React
  * react.production.min.js
@@ -299,15 +341,16 @@ Only upcoming or in-progress matches. Maximum 35 items. If none found, return ex
   --mono:ui-monospace,'SF Mono','JetBrains Mono','Roboto Mono',Menlo,monospace;
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
-.vb-root{background:var(--bg);min-height:100vh;color:var(--text);font-family:var(--sans);font-size:15px;line-height:1.42;letter-spacing:-.01em;}
+.vb-root{background:var(--bg);min-height:100vh;min-height:100dvh;color:var(--text);font-family:var(--sans);font-size:15px;line-height:1.42;letter-spacing:-.01em;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;}
+.vb-root input,.vb-root textarea,.vb-root select{-webkit-user-select:text;user-select:text;}
 .vb-center{display:flex;align-items:center;justify-content:center;min-height:100vh;}
 .vb-mono{font-family:var(--mono);font-variant-numeric:tabular-nums;letter-spacing:-.02em;}
 .up{color:var(--up);}.down{color:var(--down);}.neutral{color:var(--muted);}
 .vb-gold{color:var(--gold);}.vb-dot{color:var(--dim);margin:0 .35em;}
-.vb-shell{max-width:540px;margin:0 auto;min-height:100vh;position:relative;background:linear-gradient(180deg,#0E1612,#0C1310);}
-.vb-main{padding-bottom:98px;}
+.vb-shell{max-width:540px;margin:0 auto;min-height:100vh;min-height:100dvh;position:relative;background:linear-gradient(180deg,#0E1612,#0C1310);}
+.vb-main{padding-bottom:calc(96px + env(safe-area-inset-bottom));}
 .vb-screen{padding:14px 16px 0;}
-.vb-header{position:sticky;top:0;z-index:30;display:flex;align-items:center;justify-content:space-between;padding:14px 16px;background:rgba(12,19,16,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);}
+.vb-header{position:sticky;top:0;z-index:30;display:flex;align-items:center;justify-content:space-between;padding:calc(12px + env(safe-area-inset-top)) 16px 12px;background:rgba(12,19,16,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);}
 .vb-brand{display:flex;align-items:center;gap:8px;}
 .vb-brand-mark{color:var(--gold);font-size:18px;transform:translateY(-1px);}
 .vb-brand-name{font-family:var(--display);font-weight:700;font-size:18px;letter-spacing:-.02em;}
